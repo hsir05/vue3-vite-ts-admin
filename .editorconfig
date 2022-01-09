@@ -1,0 +1,31 @@
+# EditorConfig is awesome: https://EditorConfig.org
+# (top-most EditorConfig file) （表明这是顶层 EditorConfig 文件）
+root=true
+
+[*]
+# Set default charset （设置默认字符集）
+charset=utf-8
+# set to lf, cr, or crlf to control how line breaks are represented.（设置如何表示换行符）
+end_of_line=lf 
+# set to true to ensure file ends with a newline when saving and false to ensure it doesn't. （设置文件是否以换行结尾）
+insert_final_newline=true
+# set to tab or space to use hard tabs or soft tabs respectively.（设置制表符使用space还是tab）
+indent_style=space
+# a whole number defining the number of columns used for each indentation level and the width of soft tabs (when supported).（缩进宽度）
+indent_size=2
+# 疑似最大行款，单官网没有查到该配置项
+max_line_length=100
+
+[*.{yml,yaml,json}]
+# set to tab or space to use hard tabs or soft tabs respectively.（设置制表符使用space还是tab）
+indent_style=space
+# a whole number defining the number of columns used for each indentation level and the width of soft tabs (when supported).（缩进宽度）
+indent_size=2
+
+[*.md]
+# set to true to remove any whitespace characters preceding newline characters and false to ensure it doesn't.（设置为true可删除换行符之前的所有空白字符，设置为false可确保不删除。）
+trim_trailing_whitespace=false
+
+[Makefile]
+# set to tab or space to use hard tabs or soft tabs respectively.（设置制表符使用space还是tab）
+indent_style=tab

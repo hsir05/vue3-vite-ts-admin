@@ -1,0 +1,30 @@
+export default {
+  setting: {
+    drawerTitle: "Project config",
+    MenuLayoutMode: "Menu layout mode",
+    MenuLayoutModeLeft: "Menu layout mode left",
+    MenuLayoutModeTop: "Menu layout mode top",
+    MenuLayoutModeLeftColumn: "Menu layout mode left column",
+    MenuLayoutModeTopLeftMix: "Menu layout mode top left mix",
+    surfaceFunction: "surface function",
+
+    search: "Search",
+    notice: "Notice",
+    fullScreen: "Full screen",
+    project: "Project config",
+
+    systemtheme: "System theme",
+    headerTheme: "Header theme",
+    navBarStyle: "Nav bar style",
+    sidebarTheme: "Menu theme",
+    openBackTop: "open back top",
+    splitMenu: "Split Menu",
+    breadcrumb: "Breadcrumb",
+    animation: "Animation",
+    animationType: "Animation type",
+    noAnimation: "No animation",
+    isMultipTabs: "MultipTabs",
+    on: "On",
+    off: "Off",
+  },
+};
