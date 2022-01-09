@@ -63,7 +63,6 @@ export default ({ command, mode }: ConfigEnv): UserConfig => {
           },
           javascriptEnabled: true,
         //   additionalData: `@import "src/styles/var.less";`,
-       // 'framework/design/index.less'
         //   additionalData: `@import "src/assets/styles/index.less";`,
         //    "primary-color": "#409EFF",
         },
